@@ -8,15 +8,15 @@
 public class Arrays
 {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
         String[] strArray = {"Alpha","Bravo","Charlie","Delta","Echo"};
         for (int i = 1; i < strArray.length; i++) {
-            strArray[i] = strArray[i] + myArray[i-1];
+            strArray[i] = strArray[i] + strArray[i-1];
+            System.out.println(strArray[i]);
         }
-        for (int value : strArray) {
-            System.out.println(i);
+        for (int i = 0; i < strArray.length; i++) {
+            strArray[i] = strArray[i] + strArray[i+1];
         }
-        for (int value : strArray) {
-            System.out.println
+        if (i > 0) {
+        System.println("-" + strArray[i]);
     }
 }
