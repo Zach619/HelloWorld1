@@ -18,6 +18,9 @@ public class Arrays
             if (i > 0) {
                 System.out.print("-" + strArray[i]);
             }
+            if (i < 1) {
+                System.out.print("-" + strArray[0]);
+            }
         }
     }
 }
