@@ -1,9 +1,8 @@
-
 /**
  * Write a description of class RenameThisClass here.
  *
  * @author (your name)
- * @version (a version number or a date)
+ * @version 9-28-22
  */
 public class Arrays
 {
@@ -15,8 +14,10 @@ public class Arrays
         }
         for (int i = 0; i < strArray.length; i++) {
             strArray[i] = strArray[i] + strArray[i+1];
+
+            if (i > 0) {
+                System.out.print("-" + strArray[i]);
+            }
         }
-        if (i > 0) {
-        System.println("-" + strArray[i]);
     }
 }
